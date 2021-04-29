@@ -27,7 +27,7 @@ def results(comp, you):
 print("Computers turn: Rock(1) , Paper(2), Scissors(3)?")
 comp = random.randint(1,3)
 you = int(input("Your turn: Rock(1) , Paper(2), Scissors(3)?"))
-print(comp)
+print("Computer chose", comp)
 a = results(comp, you)
 if a == None:
     print("Its a tie")
